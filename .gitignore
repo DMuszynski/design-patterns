@@ -2,3 +2,5 @@
 .idea
 design-patterns.iml
 
+# Abstract Factory
+abstract-factory/abstract-factory.iml
