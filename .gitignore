@@ -1,6 +1,7 @@
 # Design Patterns .gitigonre
 .idea
 design-patterns.iml
+out
 
 # Abstract Factory
 abstract-factory/abstract-factory.iml
