@@ -9,16 +9,16 @@ public class App {
     private Table table;
     private Sofa sofa;
 
-    Chair getChair(final FurnitureFactory furnitureFactory) {
-        return furnitureFactory.createChair();
+    Chair getChair(final FurnitureFactory factory) {
+        return factory.createChair();
     }
 
-    Table getTable(final FurnitureFactory furnitureFactory) {
-        return furnitureFactory.createTable();
+    Table getTable(final FurnitureFactory factory) {
+        return factory.createTable();
     }
 
-    Sofa getSofa(final FurnitureFactory furnitureFactory) {
-        return furnitureFactory.createSofa();
+    Sofa getSofa(final FurnitureFactory factory) {
+        return factory.createSofa();
     }
 
     Chair getChair() {
@@ -65,12 +65,12 @@ public class App {
     /**
      * Furniture creator method
      *
-     * @param furnitureFactory concrete furniture factory object
+     * @param factory concrete furniture factory object
      */
-    void createFurniture(FurnitureFactory furnitureFactory) {
-        this.chair = furnitureFactory.createChair();
-        this.table = furnitureFactory.createTable();
-        this.sofa = furnitureFactory.createSofa();
+    void createFurniture(FurnitureFactory factory) {
+        this.chair = factory.createChair();
+        this.table = factory.createTable();
+        this.sofa = factory.createSofa();
     }
 
     /**
