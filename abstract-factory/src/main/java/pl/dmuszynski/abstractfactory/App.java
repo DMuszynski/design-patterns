@@ -9,10 +9,34 @@ public class App {
     private Table table;
     private Sofa sofa;
 
+    Chair getChair(final FurnitureFactory furnitureFactory) {
+        return furnitureFactory.createChair();
+    }
+
+    Table getTable(final FurnitureFactory furnitureFactory) {
+        return furnitureFactory.createTable();
+    }
+
+    Sofa getSofa(final FurnitureFactory furnitureFactory) {
+        return furnitureFactory.createSofa();
+    }
+
+    Chair getChair() {
+        return chair;
+    }
+
+    Table getTable() {
+        return table;
+    }
+
+    Sofa getSofa() {
+        return sofa;
+    }
+
     /**
      * The factory of furniture factories
      */
-    public static class FurnitureFactoryMaker {
+    static class FurnitureFactoryMaker {
         /**
          * Enumeration for the different types of furniture
          */
@@ -26,7 +50,7 @@ public class App {
          * @param type furniture type
          * @return concrete object of FurnitureFactory
          */
-        public static FurnitureFactory makeFurnitureFactory(FurnitureType type) {
+        static FurnitureFactory makeFurnitureFactory(FurnitureType type) {
             switch (type) {
                 case VICTORIAN:
                     return new VictorianFurnitureFactory();
@@ -43,7 +67,7 @@ public class App {
      *
      * @param furnitureFactory concrete furniture factory object
      */
-    private void createFurniture(FurnitureFactory furnitureFactory) {
+    void createFurniture(FurnitureFactory furnitureFactory) {
         this.chair = furnitureFactory.createChair();
         this.table = furnitureFactory.createTable();
         this.sofa = furnitureFactory.createSofa();
@@ -53,9 +77,9 @@ public class App {
      * Display furniture method
      */
     private void displayFurniture() {
-        System.out.println(chair.description());
-        System.out.println(table.description());
-        System.out.println(sofa.description());
+        System.out.println(chair.getDescription());
+        System.out.println(table.getDescription());
+        System.out.println(sofa.getDescription());
         System.out.println(" ");
     }
 

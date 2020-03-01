@@ -4,4 +4,5 @@ design-patterns.iml
 out
 
 # Abstract Factory
+abstract-factory/target
 abstract-factory/abstract-factory.iml
