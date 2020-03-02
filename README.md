@@ -16,9 +16,9 @@ Design patterns may be viewed as a structured approach to computer programming i
 <h2>Types of Design Patterns</h2>
 1. Creational [Class / Object creation]<br>
 2. Structural [Class / Object composition]<br>
-3. Behavioural [Class / Object communication]<br>
+3. Behavioural [Class / Object communication]<br><br>
 
-<img src="etc/designPatternsTypes.png" width="1000"/>
+<img src="etc/designPatternsTypes.png" width="500"/>
 
 <h2>Antidesign Pattern</h2>
 How to distinguish an actual anti pattern from bad habit,bad practise or bad idea?
