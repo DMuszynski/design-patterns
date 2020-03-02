@@ -6,7 +6,7 @@ Object-oriented design patterns typically show relationships and interactions be
 
 Design patterns may be viewed as a structured approach to computer programming intermediate between the levels of a programming paradigm and a concrete algorithm.
 
-<img src="etc/designpattern.png" width="1000"/>
+<img src="etc/designPatterns.png" width="1000"/>
 
 <h2>Advantages of Design Patterns</h2>
 - Tried & Tested<br>
@@ -17,3 +17,21 @@ Design patterns may be viewed as a structured approach to computer programming i
 1. Creational [Class / Object creation]<br>
 2. Structural [Class / Object composition]<br>
 3. Behavioural [Class / Object communication]<br>
+
+<img src="etc/designPatternsTypes.png" width="1000"/>
+
+<h2>Antidesign Pattern</h2>
+How to distinguish an actual anti pattern from bad habit,bad practise or bad idea?
+1. A common use process,structure or pattern that initially appearing to be appropriate & effective has more bad consequences than good ones.
+2. Another solution exist that is documented, repeatable & proven to be effective.
+
+<h2>Actions that result in turning design pattern to anti design pattern</h2>
+1. Premature Optimization : Optimising before you have enough info to make educated conclusion about where & how to do optimization.
+2. Bike shedding :Tendency to spend excessive amounts of time debating & deciding on trival & often subjective issues.
+3. Analysis Paralysis : Over analysing to point that it prevents action & progress
+4. God Class :Classes that control many other classes & have many dependencies & lots of responsibilities
+5. Fear of adding classes : Belief that more classes make design more complicated, leading to fear of adding more classes or breaking into smaller classes
+6. Inner platform effect : Tendency for complex software system to re-implement features of platform they run in or in programming language they are implemented usually poor.
+7. Magic Numbers & Strings : Using unnamed number or string literals instead of named constants
+8. Management by numbers : Reliance on numbers for decision making
+9. Useless Classes : Classes with no responsibility of their own or just invoke methods in another class or add an unneeded layer of abstraction
