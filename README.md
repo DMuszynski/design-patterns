@@ -27,9 +27,9 @@ How to distinguish an actual anti pattern from bad habit,bad practise or bad ide
 
 <h2>Actions that result in turning design pattern to anti design pattern</h2>
 1. Premature Optimization : Optimising before you have enough info to make educated conclusion about where & how to do optimization.<br><br>
-2. Bike shedding :Tendency to spend excessive amounts of time debating & deciding on trival & often subjective issues.<br><br>
+2. Bike shedding : Tendency to spend excessive amounts of time debating & deciding on trival & often subjective issues.<br><br>
 3. Analysis Paralysis : Over analysing to point that it prevents action & progress.<br><br>
-4. God Class :Classes that control many other classes & have many dependencies & lots of responsibilities.<br><br>
+4. God Class : Classes that control many other classes & have many dependencies & lots of responsibilities.<br><br>
 5. Fear of adding classes : Belief that more classes make design more complicated, leading to fear of adding more classes or breaking into smaller classes.<br><br>
 6. Inner platform effect : Tendency for complex software system to re-implement features of platform they run in or in programming language they are implemented usually poor.<br><br>
 7. Magic Numbers & Strings : Using unnamed number or string literals instead of named constants.<br><br>
