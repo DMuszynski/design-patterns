@@ -12,3 +12,8 @@ Design patterns may be viewed as a structured approach to computer programming i
 - Tried & Tested<br>
 - Highly Flexible<br>
 - Language Neutral<br>
+
+<h2>Types of Design Patterns</h2>
+1. Creational [Class / Object creation]<br>
+2. Structural [Class / Object composition]<br>
+3. Behavioural [Class / Object communication]<br>
