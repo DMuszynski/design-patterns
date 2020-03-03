@@ -4,3 +4,11 @@ The abstract factory pattern provides a way to encapsulate a group of individual
 
 <h2>Class Diagram</h2>
 <img src="etc/abstractFactory.png"/>
+
+
+/**
+ * Abstract product - Chair interface
+ */
+public interface Chair {
+    String getDescription();
+}
