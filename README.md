@@ -34,4 +34,4 @@ How to distinguish an actual anti pattern from bad habit,bad practise or bad ide
 6. Inner platform effect : Tendency for complex software system to re-implement features of platform they run in or in programming language they are implemented usually poor.<br><br>
 7. Magic Numbers & Strings : Using unnamed number or string literals instead of named constants.<br><br>
 8. Management by numbers : Reliance on numbers for decision making.<br><br>
-9. Useless Classes : Classes with no responsibility of their own or just invoke methods in another class or add an unneeded layer of abstraction.<br>
+9. Useless Classes : Classes with no responsibility of their own or just invoke methods in another class or add an unneeded layer of abstraction.<br><br>
