@@ -25,6 +25,54 @@ public interface Table {
     String getDescription();
 }
 ```
+Concrete product
+```java
+// Modern furniture implementations 
+public class ModernChair implements Chair {
+    static final String DESCRIPTION = "This is a modern chair";
+    @Override
+    public String getDescription() {
+        return DESCRIPTION;
+    }
+}
+public class ModernSofa implements Sofa{
+    static final String DESCRIPTION = "This is a modern sofa";
+    @Override
+    public String getDescription() {
+        return DESCRIPTION;
+    }
+}
+public class ModernTable implements Table{
+    static final String DESCRIPTION = "This is a modern table";
+    @Override
+    public String getDescription() {
+        return DESCRIPTION;
+    }
+}
+
+// Victorian furniture implementations 
+public class VictorianChair implements Chair {
+    static final String DESCRIPTION = "This is a victorian chair";
+    @Override
+    public String getDescription() {
+        return DESCRIPTION;
+    }
+}
+public class VictorianSofa implements Sofa{
+    static final String DESCRIPTION = "This is a victorian sofa";
+    @Override
+    public String getDescription() {
+        return DESCRIPTION;
+    }
+}
+public class VictorianTable implements Table{
+    static final String DESCRIPTION = "This is a victorian table";
+    @Override
+    public String getDescription() {
+        return DESCRIPTION;
+    }
+}
+```
 
 <h2>Class Diagram</h2>
 <img src="etc/abstractFactory.png"/>
