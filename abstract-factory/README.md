@@ -28,3 +28,22 @@ public interface Table {
     String getDescription();
 }
 ```
+<h2>Consequences</h2>
+Use the Abstract Factory pattern when
+
+- a system should be independent of how its products are created, composed and represented
+- a system should be configured with one of multiple families of products
+- a family of related product objects is designed to be used together, and you need to enforce this constraint
+- you want to provide a class library of products, and you want to reveal just their interfaces, not their implementations
+- the lifetime of the dependency is conceptually shorter than the lifetime of the consumer.
+- you need a run-time value to construct a particular dependency
+- you want to decide which product to call from a family at runtime.
+- you need to supply one or more parameters only known at run-time before you can resolve a dependency.
+- when you need consistency among products
+- you don’t want to change existing code when adding new products or families of products to the program.
+
+<h2>Consequences</h2>
+- Dependency injection in java hides the service class dependencies that can lead to runtime errors that would have been caught at compile time.
+- While the pattern is great when creating predefined objects, adding the new ones might be challenging.
+- The code may become more complicated than it should be, since a lot of new interfaces and classes are introduced along with the pattern.
+
