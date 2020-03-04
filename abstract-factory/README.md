@@ -116,6 +116,39 @@ public class VictorianFurnitureFactory implements FurnitureFactory {
     }
 }
 ```
+Client
+```java
+static class FurnitureFactoryMaker {
+
+    public enum FurnitureType {
+        VICTORIAN, MODERN
+    }
+
+    static FurnitureFactory makeFurnitureFactory(FurnitureType type) {
+        switch (type) {
+            case VICTORIAN:
+                return new VictorianFurnitureFactory();
+            case MODERN:
+                return new ModernFurnitureFactory();
+            default:
+                throw new IllegalArgumentException("FurnitureType not supported.");
+        }
+    }
+}
+
+public static void main(String[] args) {
+    App app = new App();
+
+    System.out.println("Victorian Furniture");
+    app.createFurniture(new VictorianFurnitureFactory());
+    app.displayFurniture();
+
+    System.out.println("Modern Furniture");
+    app.createFurniture(new ModernFurnitureFactory());
+    app.displayFurniture();
+}
+```
+
 <h2>Class Diagram</h2>
 <img src="etc/abstractFactory.png"/>
 
