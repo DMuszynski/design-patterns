@@ -22,7 +22,7 @@ Design patterns may be viewed as a structured approach to computer programming i
 
 <h2>Antidesign Pattern</h2>
 How to distinguish an actual anti pattern from bad habit,bad practise or bad idea?<br><br>
-1. A common use process,structure or pattern that initially appearing to be appropriate & effective has more bad consequences than good ones.<br>
+1. A common use process,structure or pattern that initially appearing to be appropriate & effective has more bad consequences than good ones.<br><br>
 2. Another solution exist that is documented, repeatable & proven to be effective.<br>
 
 <h2>Actions that result in turning design pattern to anti design pattern</h2>
