@@ -11,10 +11,7 @@ The abstract factory pattern provides a way to encapsulate a group of individual
     <img src="etc/abstractFactoryExample.png" width="600" />
 </p>
 
-<h2>Class Diagram</h2>
-<img src="etc/abstractFactory.png"/>
-
-<h3>Program example</h3>
+<h2>Program example</h2>
 
 Abstract product
 ```java
@@ -28,7 +25,12 @@ public interface Table {
     String getDescription();
 }
 ```
-<h2>Consequences</h2>
+
+<h2>Class Diagram</h2>
+<img src="etc/abstractFactory.png"/>
+
+<h2>Applicability</h2>
+
 Use the Abstract Factory pattern when
 
 - a system should be independent of how its products are created, composed and represented
@@ -43,6 +45,7 @@ Use the Abstract Factory pattern when
 - you don’t want to change existing code when adding new products or families of products to the program.
 
 <h2>Consequences</h2>
+
 - Dependency injection in java hides the service class dependencies that can lead to runtime errors that would have been caught at compile time.
 - While the pattern is great when creating predefined objects, adding the new ones might be challenging.
 - The code may become more complicated than it should be, since a lot of new interfaces and classes are introduced along with the pattern.
