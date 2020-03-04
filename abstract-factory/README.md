@@ -16,20 +16,15 @@ The abstract factory pattern provides a way to encapsulate a group of individual
 
 <h3>Program example</h3>
 
+Abstract product
 ```java
-/**
- * Abstract product - Chair interface
- */
 public interface Chair {
     String getDescription();
 }
-```
-
-```java
-/**
- * Abstract product - Sofa interface
- */
 public interface Sofa {
+    String getDescription();
+}
+public interface Table {
     String getDescription();
 }
 ```
