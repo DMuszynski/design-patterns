@@ -12,7 +12,8 @@ The abstract factory pattern provides a way to encapsulate a group of individual
 </p>
 
 <h2>Program example</h2>
-The following program is an implementation of an abstract factory pattern producing furniture (chair, sofa and table), modern and victorian
+The following program is an implementation abstract factory
+used for the production of modern and Victorian furniture (chair, sofa and table).<br>
 
 Abstract product
 ```java
