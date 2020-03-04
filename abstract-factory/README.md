@@ -73,7 +73,49 @@ public class VictorianTable implements Table{
     }
 }
 ```
+Abstract factory
+```java
+public interface FurnitureFactory {
+    Chair createChair();
+    Table createTable();
+    Sofa createSofa();
+}
+```
 
+Concrete factory
+```java
+// Modern furniture factory implementations 
+public class ModernFurnitureFactory implements FurnitureFactory{
+    @Override
+    public Chair createChair() {
+        return new ModernChair();
+    }
+    @Override
+    public Table createTable() {
+        return new ModernTable();
+    }
+    @Override
+    public Sofa createSofa() {
+        return new ModernSofa();
+    }
+}
+
+// Victorian furniture factory implementations 
+public class VictorianFurnitureFactory implements FurnitureFactory {
+    @Override
+    public Chair createChair() {
+        return new VictorianChair();
+    }
+    @Override
+    public Table createTable() {
+        return new VictorianTable();
+    }
+    @Override
+    public Sofa createSofa() {
+        return new VictorianSofa();
+    }
+}
+```
 <h2>Class Diagram</h2>
 <img src="etc/abstractFactory.png"/>
 
