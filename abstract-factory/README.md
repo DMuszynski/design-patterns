@@ -4,16 +4,14 @@
 |:--------------:|:----------------:|:----------------:|:---------------:|:----:|
 | Design Pattern | Abstract Factory | abstract-factory | Creational      | GoF  |
 
-<h2>Desctiption</h2>
+<h2>Description</h2>
 The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes. In normal usage, the client software creates a concrete implementation of the abstract factory and then uses the generic interface of the factory to create the concrete objects that are part of the theme. The client doesn't know (or care) which concrete objects it gets from each of these internal factories, since it uses only the generic interfaces of their products. This pattern separates the details of implementation of a set of objects from their general usage and relies on object composition, as object creation is implemented in methods exposed in the factory interface.<br><br>
 
 <p align="center">
     <img src="etc/abstractFactoryExample.png" width="600" />
 </p>
 
-
-<h2>Class Diagram</h2><br>
-
+<h2>Class Diagram</h2>
 <img src="etc/abstractFactory.png"/>
 
 <h3>Program example</h3>
