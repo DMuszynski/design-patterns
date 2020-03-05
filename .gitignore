@@ -6,3 +6,7 @@ out
 # Abstract Factory
 abstract-factory/target
 abstract-factory/abstract-factory.iml
+
+# Factory Method
+factory-method/target
+factory-method/factory-method.iml
