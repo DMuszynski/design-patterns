@@ -15,7 +15,7 @@ The abstract factory pattern provides a way to encapsulate a group of individual
 The following program is an implementation abstract factory
 used for the production of modern and Victorian furniture (chair, sofa and table).
 
-<br>Abstract product - furniture interfaces
+<br>Abstract product - furniture interfaces.
 ```java
 public interface Chair {
     String getDescription();
@@ -27,7 +27,7 @@ public interface Table {
     String getDescription();
 }
 ```
-Concrete product - classes representing specific furniture, that implement the corresponding interfaces
+Concrete product - classes representing specific furniture, that implement the corresponding interfaces.
 ```java
 // Modern furniture implementations 
 public class ModernChair implements Chair {
@@ -75,7 +75,7 @@ public class VictorianTable implements Table{
     }
 }
 ```
-Abstract factory - furniture factory interface
+Abstract factory - furniture factory interface that allows us to create a family of related objects.
 ```java
 public interface FurnitureFactory {
     Chair createChair();
@@ -84,7 +84,7 @@ public interface FurnitureFactory {
 }
 ```
 
-Concrete factory - classes representing specific furniture that implement appropriate interfaces
+Concrete factory - classes representing specific furniture that implement appropriate interfaces.
 ```java
 // Modern furniture factory implementations 
 public class ModernFurnitureFactory implements FurnitureFactory{
