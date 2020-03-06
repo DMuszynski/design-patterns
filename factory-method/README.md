@@ -14,4 +14,4 @@ In class-based programming, the factory method pattern is a creational pattern t
 <h2>Program example</h2>
 The following program is an implementation factory method pattern
 used for the production of modern and Victorian furniture (chair, sofa and table).
-
+a
