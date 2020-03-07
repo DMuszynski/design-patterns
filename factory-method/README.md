@@ -165,7 +165,6 @@ Use the Factory Method pattern when
 
 <h2>Consequences</h2>
 
-- Dependency injection in java hides the service class dependencies that can lead to runtime errors that would have been caught at compile time.
-- While the pattern is great when creating predefined objects, adding the new ones might be challenging.
-- The code may become more complicated than it should be, since a lot of new interfaces and classes are introduced along with the pattern.
+- Creating objects in the class using the factory method always gives you more flexibility than generating them directly. The factory method pattern provides anchor points for subclasses for creating an enhanced version of objects.
+- 
 
