@@ -156,18 +156,12 @@ public static void main(String[] args) {
 
 <h2>Applicability</h2>
 
-Use the Abstract Factory pattern when
+Use the Factory Method pattern when
 
-- a system should be independent of how its products are created, composed and represented
-- a system should be configured with one of multiple families of products
-- a family of related product objects is designed to be used together, and you need to enforce this constraint
-- you want to provide a class library of products, and you want to reveal just their interfaces, not their implementations
-- the lifetime of the dependency is conceptually shorter than the lifetime of the consumer.
-- you need a run-time value to construct a particular dependency
-- you want to decide which product to call from a family at runtime.
-- you need to supply one or more parameters only known at run-time before you can resolve a dependency.
-- when you need consistency among products
-- you don’t want to change existing code when adding new products or families of products to the program.
+- you don’t know beforehand the exact types and dependencies of the objects your code should work with.
+- you want to provide users of your library or framework with a way to extend its internal components.
+- you want to save system resources by reusing existing objects instead of rebuilding them each time.
+
 
 <h2>Consequences</h2>
 
