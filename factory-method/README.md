@@ -164,7 +164,7 @@ Use the Factory Method pattern when
 
 <h2>Consequences</h2>
 
-- Eliminates the need to bind application specificclasses into your code
+- Eliminates the need to bind application specific classes into your code
 - Provides hooks for subclasses: the factory method gives subclasses a hook for providing an extended version of an object
 - Connects parallel class hierarchies: a clients can use factory methods to create a parallel class hierarchy (parallel
 class hierarchies appear when objects delegate part of their responsibilities to another class)
