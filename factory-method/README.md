@@ -162,9 +162,10 @@ Use the Factory Method pattern when
 - you want to provide users of your library or framework with a way to extend its internal components.
 - you want to save system resources by reusing existing objects instead of rebuilding them each time.
 
-
 <h2>Consequences</h2>
 
-- Creating objects in the class using the factory method always gives you more flexibility than generating them directly. The factory method pattern provides anchor points for subclasses for creating an enhanced version of objects.
-- 
+- Eliminates the need to bind application specificclasses into your code
+- Provides hooks for subclasses: the factory method gives subclasses a hook for providing an extended version of an object
+- Connects parallel class hierarchies: a clients can use factory methods to create a parallel class hierarchy (parallel
+class hierarchies appear when objects delegate part of their responsibilities to another class)
 
