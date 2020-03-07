@@ -152,7 +152,7 @@ public static void main(String[] args) {
 ```
 
 <h2>Class Diagram</h2>
-<img src="etc/bstractFactory.png"/>
+<img src="etc/abstractFactory.png"/>
 
 <h2>Applicability</h2>
 
