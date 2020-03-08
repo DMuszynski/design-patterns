@@ -123,17 +123,6 @@ static class FurnitureFactoryMaker {
     }
 }
 
-public static void main(String[] args) {
-    App app = new App();
-
-    System.out.println("Victorian Furniture");
-    app.createFurniture(new VictorianFurnitureFactory());
-    app.displayFurniture();
-
-    System.out.println("Modern Furniture");
-    app.createFurniture(new ModernFurnitureFactory());
-    app.displayFurniture();
-}
 ```
 
 
