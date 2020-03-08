@@ -85,24 +85,7 @@ public interface FurnitureFactory {
 ```
 
 Concrete factory - classes representing specific furniture that implement appropriate interfaces.
-```java
-// Modern furniture factory implementations 
-public class ModernFurnitureFactory implements FurnitureFactory{
-    @Override
-    public Chair createChair() {
-        return new ModernChair();
-    }
-    @Override
-    public Table createTable() {
-        return new ModernTable();
-    }
-    @Override
-    public Sofa createSofa() {
-        return new ModernSofa();
-    }
-}
 
-```
 Client -  The client can use FurnitureFactoryMaker to create the desired concrete factory which, in turn, will produce different concrete objects (Chair, Sofa, Table). In this example, we also used an enum to parameterize which type of kingdom factory the client will ask for.
 ```java
 static class FurnitureFactoryMaker {
