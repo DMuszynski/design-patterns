@@ -16,27 +16,6 @@ The following program is an implementation abstract factory pattern
 used for the production of modern and Victorian furniture (chair, sofa and table).
 
 
-```java
-static class FurnitureFactoryMaker {
-
-    public enum FurnitureType {
-        VICTORIAN, MODERN
-    }
-
-    static FurnitureFactory makeFurnitureFactory(FurnitureType type) {
-        switch (type) {
-            case VICTORIAN:
-                return new VictorianFurnitureFactory();
-            case MODERN:
-                return new ModernFurnitureFactory();
-            default:
-                throw new IllegalArgumentException("FurnitureType not supported.");
-        }
-    }
-}
-
-```
-
 
 <h2>Applicability</h2>
 
