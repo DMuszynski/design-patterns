@@ -20,13 +20,7 @@ used for the production of modern and Victorian furniture (chair, sofa and table
 
 
 
-public class VictorianTable implements Table{
-    static final String DESCRIPTION = "This is a victorian table";
-    @Override
-    public String getDescription() {
-        return DESCRIPTION;
-    }
-}
+
 ```
 Abstract factory - furniture factory interface that allows us to create a family of related objects.
 ```java
