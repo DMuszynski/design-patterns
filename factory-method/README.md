@@ -15,25 +15,9 @@ In class-based programming, the factory method pattern is a creational pattern t
 The following program is an implementation abstract factory pattern
 used for the production of modern and Victorian furniture (chair, sofa and table).
 
-```
-Concrete product - classes representing specific furniture, that implement the corresponding interfaces.
-```java
+
  
 
-public class ModernSofa implements Sofa{
-    static final String DESCRIPTION = "This is a modern sofa";
-    @Override
-    public String getDescription() {
-        return DESCRIPTION;
-    }
-}
-public class ModernTable implements Table{
-    static final String DESCRIPTION = "This is a modern table";
-    @Override
-    public String getDescription() {
-        return DESCRIPTION;
-    }
-}
 
 // Victorian furniture implementations 
 public class VictorianChair implements Chair {
