@@ -16,15 +16,6 @@ The following program is an implementation abstract factory pattern
 used for the production of modern and Victorian furniture (chair, sofa and table).
 
 
- 
-
-
-
-
-
-Concrete factory - classes representing specific furniture that implement appropriate interfaces.
-
-Client -  The client can use FurnitureFactoryMaker to create the desired concrete factory which, in turn, will produce different concrete objects (Chair, Sofa, Table). In this example, we also used an enum to parameterize which type of kingdom factory the client will ask for.
 ```java
 static class FurnitureFactoryMaker {
 
