@@ -102,21 +102,6 @@ public class ModernFurnitureFactory implements FurnitureFactory{
     }
 }
 
-// Victorian furniture factory implementations 
-public class VictorianFurnitureFactory implements FurnitureFactory {
-    @Override
-    public Chair createChair() {
-        return new VictorianChair();
-    }
-    @Override
-    public Table createTable() {
-        return new VictorianTable();
-    }
-    @Override
-    public Sofa createSofa() {
-        return new VictorianSofa();
-    }
-}
 ```
 Client -  The client can use FurnitureFactoryMaker to create the desired concrete factory which, in turn, will produce different concrete objects (Chair, Sofa, Table). In this example, we also used an enum to parameterize which type of kingdom factory the client will ask for.
 ```java
