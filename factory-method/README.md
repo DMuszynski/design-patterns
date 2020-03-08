@@ -18,14 +18,8 @@ used for the production of modern and Victorian furniture (chair, sofa and table
 ```
 Concrete product - classes representing specific furniture, that implement the corresponding interfaces.
 ```java
-// Modern furniture implementations 
-public class ModernChair implements Chair {
-    static final String DESCRIPTION = "This is a modern chair";
-    @Override
-    public String getDescription() {
-        return DESCRIPTION;
-    }
-}
+ 
+
 public class ModernSofa implements Sofa{
     static final String DESCRIPTION = "This is a modern sofa";
     @Override
