@@ -21,15 +21,6 @@ used for the production of modern and Victorian furniture (chair, sofa and table
 
 
 
-```
-Abstract factory - furniture factory interface that allows us to create a family of related objects.
-```java
-public interface FurnitureFactory {
-    Chair createChair();
-    Table createTable();
-    Sofa createSofa();
-}
-```
 
 Concrete factory - classes representing specific furniture that implement appropriate interfaces.
 
