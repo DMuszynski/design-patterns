@@ -19,14 +19,7 @@ used for the production of modern and Victorian furniture (chair, sofa and table
  
 
 
-// Victorian furniture implementations 
-public class VictorianChair implements Chair {
-    static final String DESCRIPTION = "This is a victorian chair";
-    @Override
-    public String getDescription() {
-        return DESCRIPTION;
-    }
-}
+
 public class VictorianSofa implements Sofa{
     static final String DESCRIPTION = "This is a victorian sofa";
     @Override
