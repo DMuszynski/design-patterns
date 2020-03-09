@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>abstract-factory</module>
+        <module>abstract-factory</module>g
         <module>factory-method</module>
         <module>builder</module>
     </modules>
