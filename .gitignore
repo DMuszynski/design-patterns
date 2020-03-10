@@ -10,3 +10,6 @@ abstract-factory/abstract-factory.iml
 # Factory Method
 factory-method/target
 factory-method/factory-method.iml
+
+# Builder
+builder/builder.iml
