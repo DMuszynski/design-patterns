@@ -15,7 +15,7 @@ In class-based programming, the factory method pattern is a creational pattern t
 The following program is an implementation abstract factory pattern
 used for the production of modern and Victorian furniture (chair, sofa and table).
 
-<h2>
+<h2></h2>
 
 <h2>Applicability</h2>
 
