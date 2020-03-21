@@ -13,7 +13,6 @@ The builder pattern is a design pattern designed to provide a flexible solution 
 
 <h2>Program example</h2>
 
-
 <h2>Class Diagram</h2>
 
 <h2>Applicability</h2>
